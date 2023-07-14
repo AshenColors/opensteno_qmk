@@ -42,12 +42,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [RAISE] = LAYOUT(_______, KC_1, KC_2, KC_3, KC_4, KC_5,     KC_6, KC_7, KC_8, KC_9, KC_0, _______,
                     _______, KC_LGUI, KC_LALT, KC_LSFT, KC_LCTRL, KC_VOLU,      KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, XXXXXXX, XXXXXXX,
                     _______, KC_MPRV, KC_MUTE, KC_MPLY, KC_MNXT, KC_VOLD,       KC_HOME, KC_PGUP, KC_PGDN, KC_END, KC_SLSH, XXXXXXX,
-                                                _______, KC_ENT, _______,      _______, _______, _______),
+                                                _______, KC_ENT, _______,      _______, KC_SPC, _______),
 
     [LOWER] = LAYOUT(KC_DEL, KC_AT, KC_LABK, KC_DLR, KC_RABK, XXXXXXX,          XXXXXXX, KC_LBRC, KC_ASTR, KC_RBRC, KC_GRV, KC_BSPC,
                     _______, KC_BSLASH, KC_LPRN, KC_MINUS, KC_RPRN, KC_HASH,    KC_PERC, KC_LCBR, KC_EQUAL, KC_RCBR, KC_COLN, XXXXXXX,
-                    _______, KC_PIPE, KC_EXLM, KC_UNDS, KC_PLUS, XXXXXXX,       XXXXXXX, KC_AMPR, KC_CIRC, KC_TILDE, KC_QUES, KC_ENT,
-                                            _______, _______, _______,          _______, KC_SPC, _______),
+                    _______, KC_PIPE, KC_EXLM, KC_UNDS, KC_PLUS, XXXXXXX,       XXXXXXX, KC_AMPR, KC_CIRC, KC_TILDE, KC_QUES, XXXXXXX,
+                                            _______, KC_ENT, _______,          _______, KC_SPC, _______),
 
     [MODE] = LAYOUT(            _______, _______, _______, _______, _______, _______,           _______, _______, _______, _______, _______, _______,
                                 _______, _______, _______, _______, _______, _______,           _______, _______, _______, _______, _______, _______,
